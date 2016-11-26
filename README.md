@@ -71,16 +71,16 @@ UnityConnectSettings.asset
       
 ####1) Go to: https://github.com/UMD-AR-Club-Tutorial/FireTheme-Class-1.git
 
-####2) Click "Clone or download," then proceed to click "Download ZIP"
+####2) Click "Clone or download," then proceed to click "Download ZIP."
 
-####3) Unzip folder
+####3) Unzip folder.
 
-####4) Open and create new project in Unity 
+####4) Open and create new project in Unity.
 
 ####5) Go to Unzipped folder (FireTheme-Class-1) and double click "Assets" --> "Scene," and drag  
-       the scene ("FirstStove") to the Assets section in Unity
+####   the scene ("FirstStove") to the Assets section in Unity.
 
-####6) Open Scene in Unity by double cliking "FirstStove"
+####6) Open Scene in Unity by double cliking "FirstStove."
 
 ####7) Finally go back to the FireTheme-Class-1 folder and drag:  
 	./Materials  
@@ -94,13 +94,34 @@ UnityConnectSettings.asset
 	Smoke  
 	smoke_texture2741  
 
-	####to the Assets section in Unity
+####    to the Assets section in Unity.
 
 
-### B] Cloning (using Git Bash, similar with other command prompts)
+###B] Cloning (using Git Bash, similar with other command prompts)
 
 ####1) Go to: https://github.com/UMD-AR-Club-Tutorial/FireTheme-Class-1.git and copy this link on clipboard.
 
-####2) Open Git Bash and choose location to have the FireTheme-Class-1 folder
+####2) Open Git Bash and choose location (path) to have the FireTheme-Class-1 folder.
 
-####3) 
+####3) Type on Git Bash "git clone https://github.com/UMD-AR-Club-Tutorial/FireTheme-Class-1.git"
+
+####4) After folder is created in the desired location, open the folder and create new project in Unity.
+
+####5) Go into the FireTheme-Class-1 folder and double click "Assets" --> "Scene," and drag
+####   the scene ("FirstStove") to the Assets section in Unity.
+
+####6) Open Scene in Unity by double clicking "FirstStove."
+
+####7) Finally go back to the FireTheme-Class-1 folder and drag:
+	./Materials  
+	./Materials(Color)  
+	./Scripts  
+	InkyDeals_Metal_016  
+	New Material  
+	ojaq  
+	shutterstock  
+	shutterstock_78562066  
+	Smoke  
+	smoke_texture2741  
+
+####   to the Assets section in Unity.
