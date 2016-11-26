@@ -1,6 +1,9 @@
 FireTheme: Class 1
 ==================
 
+##Fire Class Part 2 (Move this to part 2 GITHUB):
+###This class will continue from part one and will go over putting out fire with water. We will simulate this in our Unity project with fire particles that are spawned in the scene from the part one project. The fire will become more intense and become widespread. The user of the simulation will have to pour water over the multiple fires. A human model will be taken from an online 3D model repository. Part three will develop the human model and finish a prototype simulation that one could build off of and improve.
+
 ##Licensing Information: NO LICENSE
 
 ##Project source download:  
