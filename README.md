@@ -8,8 +8,8 @@ https://github.com/UMD-AR-Club-Tutorial/FireTheme-Class-1.git
 
 ##Authors & Contributors
 
-#####Brian Servia  
-#####Mikhail Sorokin
+#####-<p> Brian Servia  
+#####- Mikhail Sorokin
 
 #####Any questions can be sent to: umd.ar.club@gmail.com | VR
 
