@@ -78,7 +78,7 @@ UnityConnectSettings.asset
 ####4) Open and create new project in Unity.
 
 ####5) Go to Unzipped folder (FireTheme-Class-1) and double click "Assets" --> "Scene," and drag  
-####   the scene ("FirstStove") to the Assets section in Unity.
+####   the scene ("FirstStove") to the Project window in Unity.
 
 ####6) Open Scene in Unity by double cliking "FirstStove."
 
@@ -94,7 +94,7 @@ UnityConnectSettings.asset
 	Smoke  
 	smoke_texture2741  
 
-####    to the Assets section in Unity.
+   ####to the Assets section in Unity.
 
 
 ###B] Cloning (using Git Bash, similar with other command prompts)
@@ -108,7 +108,7 @@ UnityConnectSettings.asset
 ####4) After folder is created in the desired location, open the folder and create new project in Unity.
 
 ####5) Go into the FireTheme-Class-1 folder and double click "Assets" --> "Scene," and drag
-####   the scene ("FirstStove") to the Assets section in Unity.
+   ####the scene ("FirstStove") to the Project window in Unity.
 
 ####6) Open Scene in Unity by double clicking "FirstStove."
 
@@ -124,17 +124,31 @@ UnityConnectSettings.asset
 	Smoke  
 	smoke_texture2741  
 
-####   to the Assets section in Unity.
+   ####to the Project window in Unity.
 
 
 ##Steps Of Tutorial In Unity:
 
 ###1) Right click on the Hierarchy window, hover over 3D Object, click Plane to create an object. 
-###   After created, right click the Plane object and click Rename, in order to change it from Plane to floor. 
+   ###After created, right click the Plane object and click Rename, in order to change name from Plane to floor. 
 ###2) Go to the transform settings of the floor, and make sure the position (x,y,z) are all zero.
-###3) Then scale the floor: x = 10, y = 1, z = 10.
-###4) Right click on the Hierarchy window, gover over 3D Object, click Capsule to create an object.
-###   After created, right click the Capsule object and click Rename, in order to change it from Capsule to user.
+   ###Scale the floor: x = 10, y = 1, z = 10.
+###3) Right click on the Hierarchy window, hover over 3D Object, click Capsule to create an object.
+   ###After created, right click the Capsule object and click Rename, in order to change name from Capsule to user.
+###4) Go to the transform settings of the user, and change the position to x = 0, y = 3, z = 0. 
 ###5) Drag and drop the Camera object into the user object (Assuming Unity created a Camera object automatically), 
-###   making the Camera object a child of user. (If the Camera object wasn't created for you in the 
-###   beginning of the scene, create the camera object, and drag and drop it in the user object).
+   ###making the Camera object a child of user. (If the Camera object wasn't created for you in the 
+   ###beginning of the scene, create the camera object, and drag and drop it in the user object).
+###6) Make sure both transform location settings, of user and camera, are all zero for x, y and z.
+###7) Click on the user object on the Hierarchy, then click on Add Component and type "Ridigbody." 
+   ###This will make the user have physics based properties (gravitational influence). 
+###8) Go to the Project window and double click the Scripts folder. In the folder drag and drop the
+   ###PlayerMov script into user.
+###9) Do the same for the camera with the CameraMov script.
+##*If you have any question about the scripts, you can come to AR Club's office hours, or VR club's 
+##lab hours. In addition here is reference to Unity's scripts API:
+##https://docs.unity3d.com/ScriptReference/index.html *
+###10) Drag and drop the Stove object from the Project window, to the Hierarchy window. (expect
+    ###the object to be bigger than the size of your Scene window).
+###11) Click on the Stove object in the Hierarchy, and change the scale setting in the transform section
+    ###to x = .02, y = .02, z = .02, then change the position to x = -10.08, y = .08, z = -1.29.

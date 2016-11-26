@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MoveCamera : MonoBehaviour {
+public class PlayerMov : MonoBehaviour {
 
     public float speed = 8f;
      
@@ -22,7 +22,7 @@ public class MoveCamera : MonoBehaviour {
 
         float translation = Input.GetAxis("Vertical") * speed;
         //side movements
-        float straffe = Input.GetAxis("Horizontal");
+        float straffe = Input.GetAxis("Horizontal")/4;
 
         translation *= Time.deltaTime;
 

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerMove : MonoBehaviour {
+public class CameraMov : MonoBehaviour {
 
     Vector2 mouseLook;
     Vector2 smoothV;
