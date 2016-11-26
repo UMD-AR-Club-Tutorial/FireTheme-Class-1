@@ -65,3 +65,34 @@ UnityAdsSettings.asset
 UnityConnectSettings.asset  
 ```
 
+##Download And Opening Scene  
+
+###A] ZIP Folder
+      
+####1) Go to: https://github.com/UMD-AR-Club-Tutorial/FireTheme-Class-1.git
+
+####2) Click "Clone or download," then proceed to click "Download ZIP"
+
+####3) Unzip folder
+
+####4) Open and create new project in Unity 
+
+####5) Go to Unzipped folder (FireTheme-Class-1) and double click "Assets" --> "Scene," and drag
+       the scene ("FirstStove") to the Assets section in Unity
+
+####6) Open Scene in Unity by double cliking "FirstStove"
+
+####7) Finally go back to the FireTheme-Class-1 folder and drag:  
+	```
+	./Materials  
+	./Materials(Color)  
+	./Scripts  
+	InkyDeals_Metal_016  
+	New Material  
+	ojaq  
+	shutterstock  
+	shutterstock_78562066  
+	Smoke  
+	smoke_texture2741  
+	```
+	To the Assets section in Unity
