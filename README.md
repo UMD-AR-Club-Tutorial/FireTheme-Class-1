@@ -11,7 +11,7 @@ https://github.com/UMD-AR-Club-Tutorial/FireTheme-Class-1.git
 #####- Brian Servia  
 #####- Mikhail Sorokin
 
-#####Any questions can be sent to: umd.ar.club@gmail.com | VR
+#####Any questions can be sent to: umd.ar.club@gmail.com | umdvrclub@gmail.com
 
 ```
 .:  
