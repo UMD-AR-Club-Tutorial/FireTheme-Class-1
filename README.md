@@ -145,3 +145,11 @@ UnityConnectSettings.asset
 ##*If you have any question about the scripts, you can come to AR Club's office hours, or VR club's lab hours. In addition here is reference to Unity's scripts API: https://docs.unity3d.com/ScriptReference/index.html *
 ###10) Drag and drop the Stove object from the Project window, to the Hierarchy window. (expect the object to be bigger than the size of your Scene window).
 ###11) Click on the Stove object in the Hierarchy, and change the scale setting in the transform section to x = .02, y = .02, z = .02, then change the position to x = -10.08, y = .08, z = -1.29.
+###12) Click the "Create" button on the Hierarchy and make a "Particle System" object. Name this object "Smoke" to build up to to the fire that we will make.
+###13) We will update the particle system on the smoke now. Click on the "Smoke" object in the hierarchy and change the following parameters:
+	- "Start Delay" >= 10
+	- "Start Color" a shade of Black/Grey
+	- "Shape" - Cone with "Angle" 10, "Radius" 0.25 and "Emit From" Base
+	-  "Color Over Lifetime" make full opaque in begining and transparent in the end.
+	- "Start Delay" - Set to 5 seconds or later.
+###14) Play around with the particle system settings and see the different results you can get!

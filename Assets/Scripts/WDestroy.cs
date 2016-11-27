@@ -14,22 +14,16 @@ public class WDestroy : MonoBehaviour {
         fire.GetComponent<ParticleSystem>().enableEmission = false;
     }
     // Update is called once per frame
-    void OnTriggerEnter() {
-        print(water.GetComponent<ParticleSystem>().enableEmission);
-        if(water.GetComponent<ParticleSystem>().enableEmission == true)
+    void OnParticleCollision(GameObject other) {
+        if (other == water.gameObject)
         {
-            fire.GetComponent<ParticleSystem>().enableEmission = false;
-            StartCoroutine(stopFire());
+            if (water.GetComponent<ParticleSystem>().enableEmission == true)
+            {
+                fire.GetComponent<ParticleSystem>().enableEmission = false;
+                StartCoroutine(stopFire());
+            }
+            fire.GetComponent<ParticleSystem>().enableEmission = true;
         }
-        fire.GetComponent<ParticleSystem>().enableEmission = true;
 	}
-
-    private void Update()
-    {
-        if (water.GetComponent<ParticleSystem>().enableEmission)
-        {
-            fire.GetComponent<ParticleSystem>().enableEmission = false;
-        }
-    }
 
 }

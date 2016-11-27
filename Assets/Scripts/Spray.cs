@@ -10,10 +10,10 @@ public class Spray : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown("e"))
+        if (Input.GetKey("e"))
         {
             water.GetComponent<ParticleSystem>().enableEmission = true;
-        } else if(Input.GetKeyDown("r"))
+        } else
         {
             water.GetComponent<ParticleSystem>().enableEmission = false;
         }
